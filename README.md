@@ -1,6 +1,6 @@
 # TSTP Drive Mapper 🌐
 
-**TSTP Drive Mapper** is a powerful and intuitive tool designed to simplify the management of network drive mappings on Windows systems. Whether you're an IT professional or a user seeking efficient drive management, this tool offers a seamless experience with its user-friendly interface and robust features.
+**TSTP Drive Mapper** is a powerful and intuitive tool designed to simplify the management of network drive mappings on Windows systems. Whether you're an IT professional or a user seeking efficient drive management, this tool offers a seamless experience with its user-friendly interface and robust features. Security has been a cornerstone in the development of TSTP Drive Mapper, ensuring that it meets industry standards and provides a secure environment for managing network drives.
 
 ![Hero Image](https://www.tstp.xyz/images/drive_mapper_banner.png)
 
@@ -9,6 +9,7 @@
 ## 📋 Table of Contents
 
 - [🚀 Key Features](#-key-features)
+- [🔒 Security and Compliance](#-security-and-compliance)
 - [🛠 Installation Guide](#-installation-guide)
 - [📖 User Guide](#-user-guide)
 - [🎥 Demo Video](#-demo-video)
@@ -46,6 +47,20 @@
 
 - **System Tray Integration**  
   Access quick controls and settings without occupying space on your taskbar.
+
+---
+
+## 🔒 Security and Compliance
+
+Security is integral to the TSTP Drive Mapper's design and development process. Here are the key security measures implemented:
+
+- **Data Encryption**: All sensitive data, including credentials, are encrypted using industry-standard encryption algorithms to prevent unauthorized access.
+
+- **Regular Security Audits**: The codebase undergoes regular security audits to identify and mitigate potential vulnerabilities, ensuring compliance with the latest security standards.
+
+- **Compliance with Industry Standards**: TSTP Drive Mapper is developed in accordance with industry best practices and standards, ensuring a secure and reliable tool for managing network drives.
+
+- **User Privacy**: We prioritize user privacy by implementing strict data protection policies and ensuring that user data is handled with the utmost care.
 
 ---
 
