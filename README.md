@@ -253,11 +253,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🔗 Links
 
-- **Official Website:** [https://www.tstp.xyz/](https://www.tstp.xyz/)
+- **Official Website:** [TSTP Website](https://www.tstp.xyz/)
 - **GitHub Organization:** [TSTP-Enterprises](https://github.com/TSTP-Enterprises)
-- **LinkedIn:** [TSTP Solutions](https://www.linkedin.com/company/thesolutions-toproblems)
-- **YouTube Channel:** [TSTP Studios](https://www.youtube.com/@yourpststudios)
-- **Facebook Page:** [TSTP Solutions](https://www.facebook.com/profile.php?id=61557162643039)
+- **LinkedIn:** [TSTP LinkedIn](https://www.linkedin.com/company/thesolutions-toproblems)
+- **YouTube Channel:** [(TSTP) YourPST Studios](https://www.youtube.com/@yourpststudios)
+- **Facebook Page:** [TSTP Facebook](https://www.facebook.com/profile.php?id=61557162643039)
 - **GitHub Repository:** [TSTP-Drive_Mapper](https://github.com/TSTP-Enterprises/TSTP-Drive_Mapper)
 - **Software Page:** [TSTP Drive Mapper Software](https://tstp.xyz/software/drive-mapper/)
 - **Download Link:** [Download TSTP Drive Mapper](https://www.tstp.xyz/downloads/TSTP-Drive_Mapper.zip)
@@ -270,4 +270,4 @@ A heartfelt thank you to all the users who have supported **TSTP Drive Mapper**.
 
 ---
 
-Made with ❤️ by **[TSTP Solutions](https://www.tstp.xyz)**
+Made with ❤️ by **[TSTP Enterprises](https://www.tstp.xyz)**
