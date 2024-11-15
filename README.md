@@ -13,7 +13,8 @@
 - [🛠 Installation Guide](#-installation-guide)
 - [📖 User Guide](#-user-guide)
 - [🎥 Demo Video](#-demo-video)
-- [📦 Development](#-development)
+- [🛠 Build Information](#-build-information)
+- [💡 Development](#-development)
 - [🌟 Contributing](#-contributing)
 - [💬 Support](#-support)
 - [📜 License](#-license)
@@ -37,7 +38,7 @@
   Safely store credentials for drives that require authentication.
 
 - **Advanced Export Options**  
-  Export drive mappings as PowerShell scripts for automation and backup purposes.
+  Export drive mappings as JSON or XML files for automation and backup purposes.
 
 - **Detailed Logging**  
   Keep comprehensive logs of all operations for auditing and troubleshooting.
@@ -109,7 +110,7 @@ Execute the `Drive_Mapper.exe` file to start using the application.
 - Click the **"Check Drives"** button to verify the current status of all drive mappings. The **"Mapped"** column will indicate whether each drive is currently connected.
 
 ### **6. Exporting Drive Mappings**
-- Navigate to **File > Export Drives for PowerShell Script** to export your drive mappings as a PowerShell script. This script can be used for automation or shared with others.
+- Navigate to **File > Export Drives** to export your drive mappings as JSON or XML files. These files can be used for automation or shared with others.
 
 ### **7. Accessing Logs**
 - The log console at the bottom of the main window displays real-time logs of all operations.
@@ -136,6 +137,137 @@ Watch the demo video to see **TSTP Drive Mapper** in action:
 
 ---
 
-## 📦 Development
+## 🛠 Build Information
 
-### **Clone the Repository**
+- **Programming Language:** Python 3.8
+- **Development Environment:** Cursor / VS Code
+- **Build Tools:** PyInstaller
+- **Version:** 1.0.0
+- **License:** MIT License
+
+### **Building from GitHub**
+1. **Clone the Repository:**
+    Clone the repository from GitHub to your local machine:
+    ```bash
+    git clone https://github.com/TSTP-Enterprises/TSTP-Drive_Mapper.git
+    cd TSTP-Drive_Mapper
+    ```
+
+2. **Install Python and Dependencies:**
+    Ensure you have Python 3.8 installed on your system. Install the required Python packages using the `requirements.txt` file:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Required Imports:**
+    The application uses several Python modules and PyQt5 for the GUI. Ensure the following imports are available in your environment:
+    ```python
+    import sys
+    import os
+    import json
+    import logging
+    import requests
+    import subprocess
+    import urllib.request
+    from datetime import datetime
+    from PyQt5.QtWidgets import (
+        QApplication, QMainWindow, QPushButton, QTextEdit, QVBoxLayout, QWidget,
+        QDialog, QHBoxLayout, QLabel, QLineEdit, QMessageBox, QTableWidget,
+        QTableWidgetItem, QHeaderView, QAbstractItemView, QComboBox, QAction,
+        QFileDialog, QCheckBox, QSystemTrayIcon, QMenu, QGraphicsDropShadowEffect, 
+        QStyle, QScrollArea, QFrame, QSizePolicy
+    )
+    from PyQt5.QtCore import Qt, QThread, pyqtSignal, QDateTime, QUrl
+    from PyQt5.QtGui import QIcon, QColor, QBrush, QDesktopServices
+    ```
+
+4. **Build the Executable:**
+    Use PyInstaller to create a standalone executable of the application:
+    ```bash
+    pyinstaller --onefile --windowed Code/main.py
+    ```
+
+5. **Run the Application:**
+    After building, the executable will be located in the `dist` directory. You can run it to start the application:
+    ```bash
+    ./dist/main
+    ```
+
+---
+
+## 💡 Development
+
+**TSTP Drive Mapper** was developed to address a critical need for a client who frequently had to remap network drives due to connecting with different profiles to their VPN both while away from work and at the office. The existing process was time-consuming and prone to errors, disrupting productivity and workflow.
+
+### **Development Process:**
+1. **Requirement Analysis:** Identified the core requirements for efficient drive mapping and automatic remapping based on VPN profiles.
+2. **Design:** Crafted an intuitive user interface that allows for easy management of network drives, batch operations, and secure credential storage.
+3. **Implementation:** Utilized PowerShell for scripting the drive mapping functionalities, ensuring compatibility with Windows 10/11 systems.
+4. **Testing:** Conducted rigorous testing to ensure reliability, security, and ease of use. Feedback from initial users was incorporated to refine features.
+5. **Deployment:** Packaged the tool into an executable for seamless installation and usage across various environments.
+
+### **Why It Was Made:**
+The primary goal was to create a reliable tool that automates the tedious process of remapping network drives, especially in environments where VPN profiles change frequently. By automating this process, **TSTP Drive Mapper** reduces the potential for human error, saves valuable time, and enhances overall productivity.
+
+---
+
+## 🌟 Contributing
+
+We welcome contributions to enhance **TSTP Drive Mapper**! Whether it's reporting a bug, suggesting a feature, or submitting a pull request, your input is invaluable.
+
+1. **Fork the Repository:** Click the **Fork** button at the top-right corner of the repository page.
+2. **Create a Feature Branch:**  
+    ```bash
+    git checkout -b feature/YourFeature
+    ```
+3. **Commit Your Changes:**  
+    ```bash
+    git commit -m "Add YourFeature"
+    ```
+4. **Push to the Branch:**  
+    ```bash
+    git push origin feature/YourFeature
+    ```
+5. **Open a Pull Request:** Navigate to the repository on GitHub and click **New Pull Request**.
+
+For detailed guidelines, refer to our [Contributing Guidelines](CONTRIBUTING.md).
+
+---
+
+## 💬 Support
+
+Your support helps us maintain and improve **TSTP Drive Mapper**. As a free and open-source tool, donations help cover development costs and ensure the project remains sustainable.
+
+If you find this tool valuable, please consider supporting us via [PayPal](https://www.paypal.com/donate/?hosted_button_id=YOUR_PAYPAL_LINK).
+
+Your contributions are greatly appreciated and help us continue providing this essential tool to the community.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).  
+**TSTP Drive Mapper** is open-source, free to use, and does not offer any packages, plans, or additional services.
+
+---
+
+## 🔗 Links
+
+- **Official Website:** [https://www.tstp.xyz/](https://www.tstp.xyz/)
+- **GitHub Organization:** [TSTP-Enterprises](https://github.com/TSTP-Enterprises)
+- **LinkedIn:** [TSTP Solutions](https://www.linkedin.com/company/thesolutions-toproblems)
+- **YouTube Channel:** [TSTP Studios](https://www.youtube.com/@yourpststudios)
+- **Facebook Page:** [TSTP Solutions](https://www.facebook.com/profile.php?id=61557162643039)
+- **GitHub Repository:** [TSTP-Drive_Mapper](https://github.com/TSTP-Enterprises/TSTP-Drive_Mapper)
+- **Software Page:** [TSTP Drive Mapper Software](https://tstp.xyz/software/drive-mapper/)
+- **Download Link:** [Download TSTP Drive Mapper](https://www.tstp.xyz/downloads/TSTP-Drive_Mapper.zip)
+
+---
+
+## 🙌 Acknowledgements
+
+A heartfelt thank you to all the users who have supported **TSTP Drive Mapper**. Your feedback and encouragement drive us to continuously improve and provide the best possible tool for managing network drives.
+
+---
+
+Made with ❤️ by **[TSTP Solutions](https://www.tstp.xyz)**
