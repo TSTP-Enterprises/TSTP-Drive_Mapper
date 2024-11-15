@@ -2,7 +2,7 @@
 
 **TSTP Drive Mapper** is a powerful and intuitive tool designed to simplify the management of network drive mappings on Windows systems. Whether you're an IT professional or a user seeking efficient drive management, this tool offers a seamless experience with its user-friendly interface and robust features. Security has been a cornerstone in the development of TSTP Drive Mapper, ensuring that it meets industry standards and provides a secure environment for managing network drives.
 
-![Hero Image](https://www.tstp.xyz/images/drive_mapper_banner.png)
+![Hero Image](https://www.tstp.xyz/images/dm_image_1.PNG)
 
 ---
 
@@ -238,7 +238,7 @@ For detailed guidelines, refer to our [Contributing Guidelines](CONTRIBUTING.md)
 
 Your support helps us maintain and improve **TSTP Drive Mapper**. As a free and open-source tool, donations help cover development costs and ensure the project remains sustainable.
 
-If you find this tool valuable, please consider supporting us via [PayPal](https://www.paypal.com/donate/?hosted_button_id=YOUR_PAYPAL_LINK).
+If you find this tool valuable, please consider supporting us via [PayPal](https://www.paypal.com/donate/?hosted_button_id=RAAYNUTMHPQQN).
 
 Your contributions are greatly appreciated and help us continue providing this essential tool to the community.
 
@@ -246,7 +246,7 @@ Your contributions are greatly appreciated and help us continue providing this e
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).  
 **TSTP Drive Mapper** is open-source, free to use, and does not offer any packages, plans, or additional services.
 
 ---
